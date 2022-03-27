@@ -207,6 +207,33 @@ html.hs-messages-widget-open.hs-messages-mobile body {
     justify-content: center;
 }
 
+.img-first {
+    width: 500px; 
+    margin-top: 10%;
+}
+
+.coat-arms-alignment {
+    display: flex;
+    align-items: center;
+}
+
+.get-2-btn {
+    padding-top: 20px; 
+    padding-bottom: 70px; 
+    margin: 60px 0px 0px;  
+    display: flex; 
+    justify-content: center;
+}
+
+.txt-review-media {
+    font-size: 20px;
+}
+
+.remove-pain-media {
+    text-align: center; 
+    font-size: 56px;
+}
+
 @media (max-width: 1060px) {
     .move-freely-h1 {
         font-size: 28px !important;
@@ -236,15 +263,22 @@ html.hs-messages-widget-open.hs-messages-mobile body {
 
 @media (max-width: 1060px) {
     .img-first {
-        width: 457px !important;
-        margin-top: 20% !important;
+        width: 457px;
+        margin-top: 20%;
     }
 }
 
 @media (max-width: 859px) {
     .img-first {
-        width: 470px !important;
-        margin-top: 0px !important;
+        width: 470px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-first {
+        width: 380px;
+        margin-top: 0px;
     }
 }
 
@@ -291,6 +325,12 @@ html.hs-messages-widget-open.hs-messages-mobile body {
     }
 }
 
+@media (max-width: 859px) {
+    .review-first-font {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 1060px) {
     .el-button-media1 {
         font-size: 17px;
@@ -317,7 +357,13 @@ html.hs-messages-widget-open.hs-messages-mobile body {
 
 @media (max-width: 1060px) {
     .img-media2 {
-        width: 222px !important;
+        width: 222px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-media2 {
+        width: 170px;
     }
 }
 
@@ -405,13 +451,19 @@ html.hs-messages-widget-open.hs-messages-mobile body {
 
 @media (max-width: 1100px) {
     .remove-pain-media {
-        font-size: 34px !important;
+        font-size: 34px;
     }
 }
 
 @media (max-width: 1060px) {
     .remove-pain-media {
-        font-size: 30px !important;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .remove-pain-media {
+        font-size: 22px;
     }
 }
 
@@ -505,3 +557,53 @@ html.hs-messages-widget-open.hs-messages-mobile body {
         margin: 0px;
     }
 }
+
+@media (max-width: 600px) {
+    .del-marg {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-review-media {
+        width: 125px;
+    }
+}
+
+@media (max-width: 600px) {
+    .star-review-media {
+        width: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    .txt-review-media {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
